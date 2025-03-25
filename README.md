@@ -27,7 +27,13 @@ This project visualizes historical market data for five major S&P 500 companies 
 
 ## 📁 Project Structure
 
-
+📦 financial-market-dashboard/
+├── 📊 dashboard.twbx                  # Tableau Packaged Workbook
+├── 📁 data/
+│   └── sp500_stock_data.csv          # Historical stock data (2020–2024)
+├── 📁 images/
+│   └── dashboard_preview.png         # Screenshot of the dashboard
+├── 📄 README.md   
 ---
 
 ## 📈 Tools Used
@@ -36,14 +42,6 @@ This project visualizes historical market data for five major S&P 500 companies 
 - **Python (yfinance)** – Data extraction and simulation
 - **Pandas** – Data preprocessing
 - **GitHub** – Version control and portfolio hosting
-
----
-
-## 🔗 Live Dashboard
-
-👉 [View on Tableau Public](https://public.tableau.com/app/profile/your_username/viz/financial-market-dashboard)
-
-_(Replace the link above with your actual Tableau Public URL once published)_
 
 ---
 
